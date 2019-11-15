@@ -25,6 +25,9 @@
     <Filter Include="Android">
       <UniqueIdentifier>{63044635-ab91-4634-9265-5a23ec388bc2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CMake">
+      <UniqueIdentifier>{57de9ce5-bc13-4d4b-a8ee-d3f27afd3d5d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -102,5 +105,10 @@
     <None Include="..\proj.android\gradle.properties">
       <Filter>Android</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\CMakeLists.txt">
+      <Filter>CMake</Filter>
+    </Text>
   </ItemGroup>
 </Project>
