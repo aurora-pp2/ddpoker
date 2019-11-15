@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SevenPoker">
+      <UniqueIdentifier>{fcfe7290-d3dd-41c1-9fda-157e3c3ea1f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Network">
+      <UniqueIdentifier>{75209053-546f-40e9-890f-4f66f29b0e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Utility">
+      <UniqueIdentifier>{fc53bea8-68df-4ec5-8a16-34b7de2120bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lobby">
+      <UniqueIdentifier>{8f5fc4b9-0d42-475b-8411-354fcd403e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Android">
+      <UniqueIdentifier>{63044635-ab91-4634-9265-5a23ec388bc2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WebSocketManager.cpp">
+      <Filter>src\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SevenPokerScene.cpp">
+      <Filter>src\SevenPoker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LobbyScene.cpp">
+      <Filter>src\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\json11.cpp">
+      <Filter>src\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Packet.cpp">
+      <Filter>src\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Cache.cpp">
+      <Filter>src\Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WebSocketManager.h">
+      <Filter>src\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SevenPokerScene.h">
+      <Filter>src\SevenPoker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LobbyScene.h">
+      <Filter>src\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\json11.hpp">
+      <Filter>src\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Packet.h">
+      <Filter>src\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Cache.h">
+      <Filter>src\Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\proj.android\app\jni\Android.mk">
+      <Filter>Android</Filter>
+    </None>
+    <None Include="..\proj.android\app\build.gradle">
+      <Filter>Android</Filter>
+    </None>
+    <None Include="..\proj.android\app\jni\Application.mk">
+      <Filter>Android</Filter>
+    </None>
+    <None Include="..\proj.android\gradle.properties">
+      <Filter>Android</Filter>
+    </None>
+  </ItemGroup>
+</Project>
